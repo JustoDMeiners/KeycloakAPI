@@ -22,21 +22,23 @@ spring:
           keycloak:
             issuer-uri: http://localhost:8080/realms/parcial
         registration:
-          keycloak:
-            #provider: keycloak-provider
+          ms-gateway:
+            provider: keycloak
             client-id: client-parcial-back
             client-secret: wYFHe6cwYwJaTH47kAS7iHSa7izsikaF
             scope:
               - openid
             authorization-grant-type: authorization_code
-            redirect-uri: http://localhost:8090/login/oauth2/code/keycloak
+            redirect-uri: 'http://localhost:8090/login/oauth2/code/keycloak'
   # Configuraciones de spring cloud
   cloud:
     gateway:
-      default-filters: TokenRelay
+      default-filters:
+        - TokenRelay
       routes:
         - id: ms-bill
           uri: http://localhost:8083
-          predicates: Path=/bills/**
+          predicates:
+            - Path=/api/v1/**
           filters:
             - StripPrefix=2

@@ -24,4 +24,5 @@ public class BillController {
         return ResponseEntity.ok().body(service.getAllBill());
     }
 
+
 }
