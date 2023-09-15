@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ejercicio-tp/ms-bills/ms-bills.iml" filepath="$PROJECT_DIR$/Ejercicio-tp/ms-bills/ms-bills.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicio-tp/ms-discovery/ms-discovery.iml" filepath="$PROJECT_DIR$/Ejercicio-tp/ms-discovery/ms-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicio-tp/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/Ejercicio-tp/ms-gateway/ms-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio-tp/ms-users/ms-users.iml" filepath="$PROJECT_DIR$/Ejercicio-tp/ms-users/ms-users.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/parcialBack2023B2.iml" filepath="$PROJECT_DIR$/.idea/parcialBack2023B2.iml" />
     </modules>
   </component>
