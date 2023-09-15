@@ -1,3 +1,16 @@
-user: JustoDMeiners
-password: 123456
+user: justo
+password: justo
 role: USER
+group: PROVIDER
+
+
+user: gabriela
+password: gabriela
+role: USER
+group: PROVIDER
+
+user: singrupo
+password: singrupo
+group: --
+
+
